@@ -1,0 +1,49 @@
+{
+  "name": "gittify",
+  "version": "1.0.0",
+  "description": "Browserify transform for Git information",
+  "keywords": [
+    "browserify",
+    "transform",
+    "browserify-transform",
+    "git",
+    "hash"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allenluce/gittify.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "browserify-transform-tools": "^1.7.0",
+    "nodegit": "^0.22.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-chai-expect": "^1.1.1",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-eslint-comments": "^2.0.2",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-mocha": "^5.0.0",
+    "eslint-plugin-no-inferred-method-name": "^1.0.2",
+    "eslint-plugin-no-use-extend-native": "^0.3.12",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-objects": "^1.1.1",
+    "eslint-plugin-optimize-regex": "^1.1.5",
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-unicorn": "^4.0.3",
+    "mocha": "^5.1.1",
+    "sinon": "^5.0.3"
+  }
+}
