@@ -1,6 +1,6 @@
 {
   "name": "gittify",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Browserify transform for Git information",
   "keywords": [
     "browserify",
